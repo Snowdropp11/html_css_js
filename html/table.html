@@ -2,12 +2,26 @@
 <html>
   <head>
     <title>HTML titles</title>
+    <style>
+      table,
+      th,
+      td {
+        border-collapse: collapse;
+        border: 2px solid black;
+        border-style: dotted;
+        border-color: saddlebrown;
+      }
+      th,
+      td {
+        background-color: #d6e9e9;
+      }
+    </style>
   </head>
 
   <body>
     <table>
       <tr>
-        <td>Emil</td>
+        <td style="height: max-content">Emil</td>
         <td>Tobias</td>
         <td>Linus</td>
       </tr>
@@ -17,6 +31,24 @@
         <td>bjk</td>
       </tr>
     </table>
+    <br />
+    <table>
+      <tr>
+        <th colspan="2">Name</th>
+        <th>Age</th>
+      </tr>
+      <tr>
+        <td>Jill</td>
+        <td>Smith</td>
+        <td>50</td>
+      </tr>
+      <tr>
+        <td>Eve</td>
+        <td>Jackson</td>
+        <td>94</td>
+      </tr>
+    </table>
+    <br />
 
     <table>
       <tr>
